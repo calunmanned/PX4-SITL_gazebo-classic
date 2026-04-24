@@ -114,7 +114,7 @@ endif()
 
 # find MAVLink
 find_package(MAVLink)
-
+set(MAVLINK_DEVELOPMENT ON)
 # Check if MAVLINK_DEVELOPMENT should be defined
 if(MAVLINK_DEVELOPMENT)
   message(STATUS "MAVLink development dialect enabled")
